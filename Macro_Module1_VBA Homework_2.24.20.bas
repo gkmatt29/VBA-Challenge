@@ -1,4 +1,3 @@
-Attribute VB_Name = "Module1"
 Sub Ticker_Volume():
 
     Dim ws As Worksheet
