@@ -158,7 +158,7 @@ Sub Summary_Metrics():
             Greatest_Decrease = WorksheetFunction.Min(ws.Range("L2:L" & lastrow).Value)
             Greatest_Volume = WorksheetFunction.Max(ws.Range("M2:M" & lastrow).Value)
             
-   'Looping through to determine and output the summary metrics
+      'Looping through cells, sheets to find and output the summary metrics
         
         For i = 2 To lastrow
         
