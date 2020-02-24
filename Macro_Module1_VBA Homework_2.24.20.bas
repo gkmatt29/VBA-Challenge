@@ -200,9 +200,3 @@ Sub Summary_Metrics():
     Next ws
 
 End Sub
-
-Sub SaveAs():
-
-Module1.SaveAs "C:\Users\daughert\repos\VBA-Challenge\VBA-Stocks", FileFormat:=xlTextWindows
-
-End Sub
